@@ -16,7 +16,7 @@ namespace DevopsAssignment.Controllers
         {
             _context = context;
         }
-
+        //all brand controller
         [HttpGet("AllBrands")]
         public async Task<ActionResult<IEnumerable<Brand>>> GetBrands()
         {
